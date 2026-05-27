@@ -1,1 +1,8 @@
-# testing-unam-admin-estacionamiento
+# Testing – EasyPark
+
+## Instrucciones
+
+```
+./scripts/run.sh
+```
+
