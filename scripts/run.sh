@@ -18,4 +18,9 @@ python3 test/ejercicio_2_login.py
 echo "Prueba exitosa"
 echo ""
 
+echo "Ejecutando pruebas PYTEST"
+pytest
+echo "Prueba exitosa"
+echo ""
+
 echo "Todas las pruebas fueron exitosas."
