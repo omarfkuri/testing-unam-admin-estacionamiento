@@ -37,7 +37,7 @@ mensaje = driver.find_element(
 assert "El usuario o contraseña son incorrectos." == mensaje.text
 print("El login fue exitoso")
 
-driver.save_screenshot()
+driver.save_screenshot("evidencias/test_fallido.png")
 
 # Limpiar
 
