@@ -34,7 +34,8 @@ def test_cerrar_sesion(driver):
     cerrarSessButton = driver.find_element(
         By.CSS_SELECTOR, "#cerrarSesionBtn")
     cerrarSessButton.click()
-
+    time.sleep(10)
+    
     try:
         assert "Inicio" in driver.title
     except:
