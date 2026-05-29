@@ -14,7 +14,7 @@ def driver():
 
 def test_carga_pagina(driver):
     driver.get(URL)
-    assert driver.title == "Inicio"
+    assert driver.title == "EasyPark – Inicio"
 
 def test_login_correcto(driver):
     driver.get(URL)
