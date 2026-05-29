@@ -18,8 +18,14 @@ python3 test/ejercicio_2_login.py
 echo "Prueba exitosa"
 echo ""
 
+echo "Ejecutando prueba #4"
+python3 test/ejercicio_3_login_incorrecto.py
+echo "Prueba exitosa"
+echo ""
+
 echo "Ejecutando pruebas PYTEST"
-pytest
+python3 -m pytest test/ejercicio_4_pytest.py
+python3 -m pytest test/ejercicio_5_cerrar_sesion.py
 echo "Prueba exitosa"
 echo ""
 
