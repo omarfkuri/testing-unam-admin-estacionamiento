@@ -1,7 +1,7 @@
 # Testing – EasyPark
 Este modulo existe para ejecutar las pruebas automatizadas para la aplicación web **EasyPark**
 
-## TecnologÃ­as utilizadas
+## Tecnologías utilizadas
 - Python
 - Selenium
 - PyTest
